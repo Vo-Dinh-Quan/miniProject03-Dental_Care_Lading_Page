@@ -430,7 +430,7 @@ a {
 
 .member {
     justify-content: center;
-    padding-bottom: 8.5rem;
+    padding-bottom: 170px;
 }
 
 .member__header {
@@ -462,6 +462,7 @@ a {
     object-fit: cover;
     max-width: 100%;
     height: 290px;
+    transition: 0.3s;
 }
 
 .member-item {
@@ -503,14 +504,13 @@ a {
     border: 1px solid #575f66;
     outline: none;
     background: #fff;
-    color: #575F66;
-    transition: .25s;
-
+    color: #575f66;
+    transition: 0.25s;
 }
 
 .member__control-btn:hover {
-    border-color: #2E80CE;
-    background: #2E80CE;
+    border-color: #2e80ce;
+    background: #2e80ce;
     color: #fff;
     cursor: pointer;
 }
@@ -521,6 +521,57 @@ a {
 
 .member-item__thumb:hover {
     transform: scale(1.1);
-    transition: .3S;
+    
 }
 
+/* Install */
+.install {
+    margin: 95px 0 170px;
+}
+
+.install__inner {
+    border-radius: 4px;
+    background: #2e80ce;
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.install__img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    display: block;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__desc {
+    margin-top: 18px;
+}
+
+.install__row {
+    margin-top: 3.8rem;
+    display: flex;
+    column-gap: 28px;
+}
+
+.install__btn {
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 0;
+}
